@@ -58,6 +58,11 @@ Build and Run
 3. Build and run the application: `go run cmd/main.go`
 4. The API will be available at `http://localhost:8080`.
 
+OR 
+
+1. To run server: `make server`
+2. To run test: `make test`
+
 Testing
 -------
 
