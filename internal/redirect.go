@@ -12,7 +12,7 @@ import (
 func HandleRedirect(w http.ResponseWriter, r *http.Request) {
 
 	// Extract the shortCode from the request path.
-	id := r.URL.Path
+	id := r.PathValue("shortCode")
 	url, err := getURL(id)
 	if err != nil {
 
